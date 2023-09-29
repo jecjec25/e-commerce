@@ -11,3 +11,6 @@ $routes->get('/about', 'ProductController::about');
 $routes->get('/contact', 'ProductController::contact');
 $routes->get('/furniture', 'ProductController::furniture');
 $routes->get('/shop', 'ProductController::shop');
+$routes->get('/register', 'UserController::register');
+$routes->get('/signup', 'UserController::signUp');
+$routes->get('/signin', 'UserController::signIn');
