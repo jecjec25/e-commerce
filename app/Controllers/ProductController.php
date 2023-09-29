@@ -12,6 +12,22 @@ class ProductController extends BaseController
     }
     public function chris()
     {
-        return view('index');
+        return view('main');
+    }
+    public function about()
+    {
+        return view('about');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function furniture()
+    {
+        return view('furniture');
+    }
+    public function shop()
+    {
+        return view('shop');
     }
 }
