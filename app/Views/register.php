@@ -21,7 +21,7 @@
                             <input type="text" name ="name" placeholder ="name"  class = "form-control" required>
                         </div>
                         <div class="form-group mb-3">
-                            <input type="text" name ="username" placeholder ="email" class = "form-control" required>
+                            <input type="email" name ="username" placeholder ="email" class = "form-control" required>
                         </div>
                         <div class="form-group mb-3">
                             <input type="password" name ="password" placeholder ="password" class = "form-control"required> 
